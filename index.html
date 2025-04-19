@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Passover Registration</title>
+
+  <h2>I. Festival Preparations</h2>
+  <ol type="I">
+    <li>Select a lamb without blemish</li>
+    <li>Prepare unleavened bread</li>
+    <li>Gather with family or community</li>
+    <li>Retell the story of Exodus</li>
+    <li>Observe the meal with reverence</li>
+  </ol>
+
+  <h2>II. Passover Imagery</h2>
+  <img src="Last supper.webp">
+
+  
+  <h2>III. Disciple Contact Table</h2>
+  <table border="2">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Mobile</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Peter</td>
+        <td>Capernaum</td>
+        <td>+33-ROCK-123</td>
+        <td>petros@1peter.org</td>
+      </tr>
+      <tr>
+        <td>John</td>
+        <td>Jerusalem</td>
+        <td>+33-JHN-3160</td>
+        <td>beloved@john3sixteen.org</td>
+      </tr>
+      <tr>
+        <td>Matthew</td>
+        <td>Tax Office, Galilee</td>
+        <td>+33-MTW-9110</td>
+        <td>scribe@matthewgospel.org</td>
+      </tr>
+      <tr>
+        <td>James</td>
+        <td>Fishing Dock, Galilee</td>
+        <td>+33-JMS-1042</td>
+        <td>james@acts12v2.net</td>
+      </tr>
+      <tr>
+        <td>Thomas</td>
+        <td>Judea Valley</td>
+        <td>+33-TMS-2028</td>
+        <td>believe@john20v28.net</td>
+      </tr>
+    </tbody>
+  </table>
+
+ 
+  <h2>IV. Passover Registration Form</h2>
+  <form action="#" method="post">
+
+    <label for="name">Full Name:</label><br>
+    <input type="text" id="name" name="name" placeholder="e.g. Moses Ben-Amram" required><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" placeholder="e.g. moses@exodus.org" required><br><br>
+
+    <label for="password">Passover Password:</label><br>
+    <input type="password" id="password" name="password" placeholder="Create your password" minlength="6" required><br><br>
+
+    <label for="dob">Date of Birth:</label><br>
+    <input type="date" id="dob" name="dob" required><br><br>
+
+    <label for="tribe">Choose your Tribe:</label><br>
+    <select id="tribe" name="tribe" required>
+      <option value="">--Select Tribe--</option>
+      <option value="judah">Judah</option>
+      <option value="levi">Levi</option>
+      <option value="benjamin">Benjamin</option>
+      <option value="dan">Dan</option>
+    </select><br><br>
+
+    <p>Will you attend in person?</p>
+    <input type="radio" id="yes" name="attendance" value="yes" required>
+    <label for="yes">Yes</label><br>
+    <input type="radio" id="no" name="attendance" value="no">
+    <label for="no">No</label><br><br>
+
+    <p>Select symbolic items you will bring:</p>
+    <input type="checkbox" id="bread" name="items" value="bread">
+    <label for="bread">Unleavened Bread</label><br>
+    <input type="checkbox" id="lamb" name="items" value="lamb">
+    <label for="lamb">Roasted Lamb</label><br>
+    <input type="checkbox" id="herbs" name="items" value="herbs">
+    <label for="herbs">Bitter Herbs</label><br><br>
+
+    <input type="submit" value="Register">
+  </form>
+
+</body>
+</html>
